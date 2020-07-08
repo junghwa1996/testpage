@@ -42,7 +42,7 @@
 
 /* Main_Banner Fin */
 .recommend_slider{background-color: #eeeeee; text-align: center; padding: 50px 0; margin-bottom: 100px;}
-.recommend_slider .recommend_slider_wrap h2{font-size: 25px; font-weight: bold; margin-bottom: 50px;}
+.recommend_slider .recommend_slider_wrap h2{font-size: 30px; font-weight: bold; margin-bottom: 50px;}
 .swiper-container {width: 100%;height: 400px;}
 .swiper-slide {text-align: center;font-size: 18px;}
 .swiper-container .swiper-wrapper .swiper-slide{width: 100%;}
@@ -57,14 +57,16 @@
 {width: 100%;}
 .recommend_slider .recommend_slider_wrap .swiper-container .swiper-wrapper .swiper-slide > div:last-child
 {text-align: left; font-size: 20px;}
+.recommend_slider .recommend_slider_wrap .swiper-container .swiper-wrapper .swiper-slide > div:last-child dl dt
+{font-size: 20px; line-height: 30px;color: #404040; font-weight: bold;}
 .recommend_slider .recommend_slider_wrap .swiper-container .swiper-wrapper .swiper-slide > div:last-child dl dd
 {font-size: 15px; line-height: 30px;color: #707070;}
 .recommend_slider .recommend_slider_wrap .swiper-container .swiper-wrapper .swiper-slide > div:last-child div.money
-{font-size: 18px; display: flex;}
+{font-size: 18px; display: flex; align-items: center; justify-content: flex-end;}
 .recommend_slider .recommend_slider_wrap .swiper-container .swiper-wrapper .swiper-slide > div:last-child div.money span
 {margin-right: 20px; text-decoration: line-through; color: #707070;}
 .recommend_slider .recommend_slider_wrap .swiper-container .swiper-wrapper .swiper-slide > div:last-child div.money p
-{font-weight: bold;}
+{font-weight: bold; font-size: 30px;}
 .swiper-container-horizontal>.swiper-pagination-bullets
 {bottom: 0;}
 .swiper-button-next,.swiper-button-prev{display: none;}
@@ -82,45 +84,45 @@
 /* Banner_D_01 Fin */
 .Item_List_5{margin-bottom: 100px;}
 .Item_List_5 .Item_List_5_wrap dl{text-align: center; margin-bottom: 50px;}
-.Item_List_5 .Item_List_5_wrap dl dt h2{font-size: 25px; font-weight: bold; margin-bottom: 20px;}
+.Item_List_5 .Item_List_5_wrap dl dt h2{font-size: 30px; font-weight: bold; margin-bottom: 20px;}
 .Item_List_5 .Item_List_5_wrap dl dd{font-size: 15px; color: #707070;}
 .Item_List_5 .Item_List_5_wrap .item_list{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .Item_List_5 .Item_List_5_wrap .item_list .item{float: left; width: 18%; margin-bottom:50px; }
 .Item_List_5 .Item_List_5_wrap .item_list .item a{display: block; margin-bottom: 10px;}
 .Item_List_5 .Item_List_5_wrap .item_list .item a img{width: 100%;}
 .Item_List_5 .Item_List_5_wrap .item_list .item .promotion{margin-bottom: 10px;}
-.Item_List_5 .Item_List_5_wrap .item_list .item p{font-size: 12px; line-height: 20px; color: #707070;}
-.Item_List_5 .Item_List_5_wrap .item_list .item p:nth-child(4){text-decoration: line-through;}
-.Item_List_5 .Item_List_5_wrap .item_list .item p:last-child{font-weight: bold; color: #404040;}
+.Item_List_5 .Item_List_5_wrap .item_list .item p:nth-child(3){font-size: 18px; font-weight: bold; color: #404040; margin-bottom: 8px;}
+.Item_List_5 .Item_List_5_wrap .item_list .item p:nth-child(4){ font-weight: bold; color: #404040; font-size: 20px; float: left; margin-right: 10px;}
+.Item_List_5 .Item_List_5_wrap .item_list .item p:last-child{text-decoration: line-through; margin-top: 12px; font-size: 15px;  color: #707070;}
 
 /* Item List 5개 Fin */
 
 .Item_List_4_bg{margin-bottom: 100px; background-color: #eeeeee; padding-top: 50px;}
 .Item_List_4_bg .Item_List_4_bg_wrap dl{text-align: center; margin-bottom: 50px;}
-.Item_List_4_bg .Item_List_4_bg_wrap dl dt h2{font-size: 25px; font-weight: bold; margin-bottom: 20px;}
+.Item_List_4_bg .Item_List_4_bg_wrap dl dt h2{font-size: 30px; font-weight: bold; margin-bottom: 20px;}
 .Item_List_4_bg .Item_List_4_bg_wrap dl dd{font-size: 15px; color: #707070;}
 .Item_List_4_bg .Item_List_4_bg_wrap .item_list{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .Item_List_4_bg .Item_List_4_bg_wrap .item_list .item{float: left; width: 23%; margin-bottom:50px; background-color: #ffffff;}
 .Item_List_4_bg .Item_List_4_bg_wrap .item_list .item a{display: block; margin-bottom: 10px;}
 .Item_List_4_bg .Item_List_4_bg_wrap .item_list .item a img{width: 100%;}
 .Item_List_4_bg .Item_List_4_bg_wrap .item_list .item .promotion{margin-bottom: 10px; display: none;}
-.Item_List_4_bg .Item_List_4_bg_wrap .item_list .item p{font-size: 12px; line-height: 20px; color: #707070; padding-left: 20px;}
-.Item_List_4_bg .Item_List_4_bg_wrap .item_list .item p:nth-child(4){text-decoration: line-through;}
-.Item_List_4_bg .Item_List_4_bg_wrap .item_list .item p:last-child{font-weight: bold; color: #404040; padding-bottom: 20px;}
+.Item_List_4_bg .Item_List_4_bg_wrap .item_list .item p:nth-child(3){margin-left: 15px; font-size: 18px; font-weight: bold; color: #404040; margin-bottom: 8px;}
+.Item_List_4_bg .Item_List_4_bg_wrap .item_list .item p:nth-child(4){margin-left: 15px; font-weight: bold; color: #404040; font-size: 20px; float: left; margin-right: 10px;}
+.Item_List_4_bg .Item_List_4_bg_wrap .item_list .item p:last-child{text-decoration: line-through; margin-top: 12px; font-size: 15px;  color: #707070; margin-bottom: 15px;}
 /* Item List 4 bg Fin */
 
 .Item_List_4{margin-bottom: 100px;}
 .Item_List_4 .Item_List_4_wrap dl{text-align: center; margin-bottom: 50px;}
-.Item_List_4 .Item_List_4_wrap dl dt h2{font-size: 25px; font-weight: bold; margin-bottom: 20px;}
+.Item_List_4 .Item_List_4_wrap dl dt h2{font-size: 30px; font-weight: bold; margin-bottom: 20px;}
 .Item_List_4 .Item_List_4_wrap dl dd{font-size: 15px; color: #707070;}
 .Item_List_4 .Item_List_4_wrap .item_list{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .Item_List_4 .Item_List_4_wrap .item_list .item{float: left; width: 23%; margin-bottom:50px; }
 .Item_List_4 .Item_List_4_wrap .item_list .item a{display: block; margin-bottom: 10px;}
 .Item_List_4 .Item_List_4_wrap .item_list .item a img{width: 100%;}
 .Item_List_4 .Item_List_4_wrap .item_list .item .promotion{margin-bottom: 10px;}
-.Item_List_4 .Item_List_4_wrap .item_list .item p{font-size: 12px; line-height: 20px; color: #707070;}
-.Item_List_4 .Item_List_4_wrap .item_list .item p:nth-child(4){text-decoration: line-through;}
-.Item_List_4 .Item_List_4_wrap .item_list .item p:last-child{font-weight: bold; color: #404040;}
+.Item_List_4 .Item_List_4_wrap .item_list .item p:nth-child(3){font-size: 18px; font-weight: bold; color: #404040; margin-bottom: 8px;}
+.Item_List_4 .Item_List_4_wrap .item_list .item p:nth-child(4){ font-weight: bold; color: #404040; font-size: 20px; float: left; margin-right: 10px;}
+.Item_List_4 .Item_List_4_wrap .item_list .item p:last-child{text-decoration: line-through; margin-top: 12px; font-size: 15px;  color: #707070;}
 /* Item List 4 Fin */
 .Main_Video{margin-bottom: 100px;}
 .Main_Video .Main_Video_Wrap{background-color: #eeeeee; display: flex; align-items: center;}
@@ -141,7 +143,7 @@
 /* text_Banner Fin */
 .Item_List_4_border{margin-bottom: 100px;padding-top: 50px;}
 .Item_List_4_border .Item_List_4_border_wrap dl{text-align: center; margin-bottom: 50px;}
-.Item_List_4_border .Item_List_4_border_wrap dl dt h2{font-size: 25px; font-weight: bold; margin-bottom: 20px;}
+.Item_List_4_border .Item_List_4_border_wrap dl dt h2{font-size: 30px; font-weight: bold; margin-bottom: 20px;}
 .Item_List_4_border .Item_List_4_border_wrap dl dd{font-size: 15px; color: #707070;}
 .Item_List_4_border .Item_List_4_border_wrap .item_list{display: flex; flex-wrap: wrap; justify-content: space-between;}
 .Item_List_4_border .Item_List_4_border_wrap .item_list .item{float: left; width: 23%; margin-bottom:50px; background-color: #ffffff; border: 1px solid #eeeeee;}
@@ -152,3 +154,11 @@
 .Item_List_4_border .Item_List_4_border_wrap .item_list .item p:nth-child(3){font-size: 15px; font-weight: bold; color: #000;}
 .Item_List_4_border .Item_List_4_border_wrap .item_list .item p:nth-child(4){font-size: 12px; margin-bottom: 10px;}
 .Item_List_4_border .Item_List_4_border_wrap .item_list .item p:last-child{ padding-bottom: 10px; font-size: 12px;}
+
+/* 선있는 아이템 4개 레이아웃 */
+
+.instargram {background-color: #eeeeee; padding: 50px 0;}
+.instargram .instargram_wrap {text-align: center;}
+.instargram .instargram_wrap h2 {font-size: 30px; font-weight: bold; margin-bottom: 50px;}
+
+/* 인스타그램 */

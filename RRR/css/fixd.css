@@ -85,7 +85,7 @@ aside .aside_Wrap ul li:hover a{color: #fff;}
 /* 스크롤 전 오른쪽 fixd 배너 */
 
 .quickfixed{position: fixed; width: 100%; top: 60px; left: 50%; z-index: 1000000; margin-left: -600px;}
-.quickfixed_right{position: fixed; width: 100%; top: 60px; right: 50%; z-index: 1000000; margin-right: -950px;}
+.quickfixed_right{position: fixed; width: 100%; top: 60px;z-index: 1000000; }
 
 /* 스크롤 시 오른쪽 fixd 배너 위치 */
 

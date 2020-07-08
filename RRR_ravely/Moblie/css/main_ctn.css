@@ -1,0 +1,23 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+}
+.slider_main{margin-bottom: 10vw;}
+.slider_main .swiper_main .swiper-wrapper .swiper-slide img{width:100vw;}
+.swiper-pagination-bullet{transition: all .5s ease;}
+.swiper-pagination-bullet-active{width: 30px; border-radius: 10px; background-color: #404040; transition: all .5s ease;}
+/* 메인슬라이더 스와이프 */
+
+.Main_Banner .Main_Banner_Wrap .left .long a{display: block;}
+.Main_Banner .Main_Banner_Wrap .left .long a img{width: 100%;margin-bottom: 5vw;}
+.Main_Banner .Main_Banner_Wrap .left ul{display: flex; margin-bottom: 5vw; justify-content: center;}
+.Main_Banner .Main_Banner_Wrap .left ul li{width: 50%;}
+.Main_Banner .Main_Banner_Wrap .left ul li:first-child{margin-right: 5vw;}
+.Main_Banner .Main_Banner_Wrap .left ul li a{display: block;}
+.Main_Banner .Main_Banner_Wrap .left ul li a img{width: 100%; height: 100%;}

@@ -59,6 +59,7 @@ header .header_Wrap .right .search input[type="text"].open{padding: 5px 15px; wi
 
 .fixed{position: fixed; width: 100%; top: 0; z-index: 1000000;}
 
+
 /* Fixd Nav Fin */
 aside{position: relative;}
 aside .aside_Wrap{width: 200px; border: 1px solid #eeeeee; height: 500px; position: absolute; top: 0; left: 0; z-index: 10; box-sizing: border-box;}
@@ -69,3 +70,50 @@ aside .aside_Wrap ul li a{color: #707070; font-size: 15px;}
 aside .aside_Wrap ul li:hover a{color: #fff;}
 
 /* aside Fin */
+.wrap{position: relative;}
+.quick_menu_Left_wrap {position: absolute; top: 10px; left: 50%; margin-left: -710px;}
+
+/*quick menu left*/
+
+.quick_menu_right .quick_menu_right_wrap{position: absolute; top: 10px; right: 50%; margin-right: -710px;}
+.quick_menu_right .quick_menu_right_wrap .kakao {margin-bottom: 10px;}
+.quick_menu_right .quick_menu_right_wrap .scrollTop {width: 95px; height: 40px; background-color: #eeeeee; border: 1px solid #707070; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+.quick_menu_right .quick_menu_right_wrap .scrollTop .scrollTopbg {display: flex; align-items: center; }
+.quick_menu_right .quick_menu_right_wrap .scrollTop .scrollTopbg i{font-size: 15px;}
+.quick_menu_right .quick_menu_right_wrap .scrollTop .scrollTopbg p{font-size: 15px; font-weight: bold;}
+
+/* 스크롤 전 오른쪽 fixd 배너 */
+
+.quickfixed{position: fixed; width: 100%; top: 60px; left: 50%; z-index: 1000000; margin-left: -600px;}
+.quickfixed_right{position: fixed; width: 100%; top: 60px; right: 50%; z-index: 1000000; margin-right: -950px;}
+
+/* 스크롤 시 오른쪽 fixd 배너 위치 */
+
+footer {margin-top: 50px; border-top: 1px solid #404040;}
+footer .footerWrap .footerLink {padding: 20px 0; border-bottom: 1px solid #eeeeee; display: flex; justify-content: space-between; align-items: center;}
+footer .footerWrap .footerLink .linkmenu ul {display: flex; position: relative;}
+footer .footerWrap .footerLink .linkmenu ul li{margin: 0 20px; position: relative;}
+footer .footerWrap .footerLink .linkmenu ul li:not(:last-child)::before{content: ''; border-right: 1px solid #707070; position: absolute; top: 1px; right: -20px; width: 1px; height: 15px;}
+footer .footerWrap .footerLink .linkmenu ul li a{font-size: 15px; color: #707070;}
+footer .footerWrap .footerLink .snsico a{color: #707070; font-size: 25px;}
+footer .footerWrap .footerLink .snsico a:first-child{margin-right: 5px;}
+/* footerLink Fin */
+footer .footerWrap .footerctn .ctnM{display: flex; justify-content: space-between; padding: 50px 0; border-bottom: 1px solid #eeeeee;}
+footer .footerWrap .footerctn .ctnM h3{font-size: 20px; font-weight: bold; color: #404040; margin-bottom: 40px;}
+footer .footerWrap .footerctn .ctnM .Number p{font-size: 40px; font-weight: bold; margin-bottom: 20px;}
+footer .footerWrap .footerctn .ctnM .Number dl{font-size: 15px; color: #707070; line-height: 25px;}
+footer .footerWrap .footerctn .ctnM .Number dl dd{font-weight: bold; color: #404040;}
+
+footer .footerWrap .footerctn .ctnM .Bank ul li{display: flex; line-height: 30px; font-size: 15px;}
+footer .footerWrap .footerctn .ctnM .Bank ul li p{font-weight: bold; margin-right: 10px;}
+footer .footerWrap .footerctn .ctnM .Bank ul li.BackLink{margin-top: 10px;}
+footer .footerWrap .footerctn .ctnM .Bank ul li.BackLink select{font-size: 12px;}
+
+footer .footerWrap .footerctn .ctnM .ShopMenu ul {display: flex;}
+footer .footerWrap .footerctn .ctnM .ShopMenu ul li{text-align: center; margin: 0 10px;}
+footer .footerWrap .footerctn .ctnM .ShopMenu ul li a i{font-size: 30px; border: 1px solid #eeeeee; border-radius: 50%; padding: 10px; color: #aaaaaa;}
+footer .footerWrap .footerctn .ctnM .ShopMenu ul li p{font-size: 15px; color: #707070; line-height: 30px;}
+
+footer .footerWrap .footerctn .ctnB {padding: 50px 0;}
+footer .footerWrap .footerctn .ctnB span{font-size: 15px; color: #aaaaaa; margin-right: 25px; line-height: 25px;}
+footer .footerWrap .footerctn .ctnB span:last-child{color: #707070; font-weight: bold;}

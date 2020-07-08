@@ -1,6 +1,6 @@
 $(function(){
     MainSlider();
-    BannerSlide();
+    // BannerSlide();
     swiper();
     text_Banner_slider();
 });
@@ -10,11 +10,15 @@ function MainSlider(){
         speed:'300',
         auto:'true'
     });
-}
-function BannerSlide(){
     $('.BannerSlide').bxSlider({
+        speed:'500',
+        auto:'true'
     });
 }
+// function BannerSlide(){
+//     $('.BannerSlide').bxSlider({
+//     });
+// }
 function text_Banner_slider(){
     $('.text_Banner_slider').bxSlider({
         speed:'400',

@@ -1,5 +1,8 @@
 $(function(){
     mainslide();
+    minislide();
+    recommend_swiper();
+    textbanner();
 });
 
 
@@ -14,4 +17,34 @@ function mainslide(){
           },
           loop: true,
       });
+}
+
+function minislide(){
+  var swiper = new Swiper('.mini_swiper', {
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+}
+
+function recommend_swiper(){
+  var swiper = new Swiper('.recommend_swiper', {
+    slidesPerView: 2,
+    spaceBetween: 10,
+    slidesPerGroup: 2,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+}
+
+function textbanner(){
+  var swiper = new Swiper('.text_swiper', {
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
 }

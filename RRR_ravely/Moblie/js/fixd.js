@@ -49,7 +49,7 @@ function scrollTopbtn(){
 }
 
 function quickFixed(){
-    var nav = $('.slider_main').height();
+    var nav = $('.middle').height();
     $(window).scroll(function(){
         if($(this).scrollTop() > nav){
             $('.Topbtn').addClass('block');

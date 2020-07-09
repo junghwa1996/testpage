@@ -24,6 +24,11 @@ function minislide(){
     pagination: {
       el: '.swiper-pagination',
     },
+   autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+   },
+    loop: true,
   });
 }
 
@@ -38,6 +43,7 @@ function recommend_swiper(){
       el: '.swiper-pagination',
       clickable: true,
     },
+     delay: 3000,
   });
 }
 
@@ -45,6 +51,11 @@ function textbanner(){
   var swiper = new Swiper('.text_swiper', {
     pagination: {
       el: '.swiper-pagination',
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+   },
+    loop: true,
     },
   });
 }

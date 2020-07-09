@@ -5,6 +5,9 @@
 .Top_Banner{background-color: #eeeeee;}
 
 /* Top Banner Fin */
+
+header.fixedNav{position: fixed; top:0; left: 0; background-color: #fff; z-index: 100000; border-bottom: 1px solid #707070;}
+
 .Top_Nav .Top_Nav_Wrap .User {display: flex; justify-content: space-between; padding: 10px 0; font-size: 12px;}
 .Top_Nav .Top_Nav_Wrap .User a{color: #404040;}
 
@@ -13,8 +16,8 @@ header .header_Wrap .asideMenuIco{cursor: pointer;}
 header .header_Wrap .asideMenuIco i{font-size: 30px;}
 
 /* 어사이드 메뉴 구간 Start */
-header .header_Wrap .sidebar{position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, .8); height: 100%; width: 100%; transform: translate(-100%);transition: all .5s ease; z-index: 10000;}
-header .header_Wrap .sidebar.open{transform: translate(0); transition: all .5s ease;}
+header .header_Wrap .sidebar{position: absolute; top: 0; left: 0; background-color: rgba(0, 0, 0, .8); height: 100vh; width: 100%; transform: translate(-100%);transition: all .5s ease; z-index: 10000;}
+header .header_Wrap .sidebar.open{transform: translate(0); transition: all .5s ease; background-color: rgba(0, 0, 0, .8); height: 100vh;}
 header .header_Wrap .sidebar .asideMenuWrap{position: relative;}
 header .header_Wrap .sidebar .asideMenuWrap .asideMenuIco{position: absolute; right: 0; top: 20px; cursor: pointer;}
 header .header_Wrap .sidebar .asideMenuWrap .asideMenuIco i{color: #fff; font-size: 30px;}

@@ -2,6 +2,8 @@ $(function(){
     tapMenu();
     Menuopen();
     MSearchopen();
+    scrollTopbtn();
+    quickFixed();
 });
 
 
@@ -27,3 +29,19 @@ function MSearchopen(){
     });
 }
 
+function scrollTopbtn(){
+    $('.Topico').on('click',function(){
+        $('html,body').stop().animate({scrollTop:0},1000);
+    });
+}
+
+function quickFixed(){
+    var nav = $('.slider_main').height();
+    $(window).scroll(function(){
+        if($(this).scrollTop() > nav){
+            $('.Topbtn').addClass('block');
+        }else{
+            $('.Topbtn').removeClass('block');
+        }
+    });
+}

@@ -4,6 +4,7 @@ $(function(){
     MSearchopen();
     scrollTopbtn();
     quickFixed();
+    navFixed();
 });
 
 
@@ -16,6 +17,18 @@ function tapMenu(){
     });
 }
 // 좌측 메뉴 탭기능
+
+function navFixed(){
+    var nav = $('.middle').height();
+    $(window).scroll(function(){
+        if($(this).scrollTop() > nav){
+            $('header').addClass('fixedNav');
+        }else{
+            $('header').removeClass('fixedNav');
+        }
+    });
+}
+
 
 function Menuopen(){
     $('.asideMenuIco').click(function(){

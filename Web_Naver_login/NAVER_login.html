@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 : 로그인</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="language">
+                <select name="language" id="language" style="font-family: 'Nanum Gothic', sans-serif;">
+                    <option value="KOR">한국어</option>
+                    <option value="ENG">English</option>
+                    <option value="CN">中文(简体)</option>
+                    <option value="TW">中文(台灣)</option>
+                </select>
+            </div>
+            <h1><img src="images/Logo.png" alt="네이버로고"></h1>
+        </header>
+        <main>
+            <form action="Login">
+                <div class="id">
+                    <input type="text" placeholder="아이디" id="IdInput">
+                    <span>아이디를 입력해주세요.</span>
+                </div>
+                <div class="password">
+                    <input type="password" placeholder="비밀번호">
+                </div>
+                <div class="button">
+                    <input type="submit" value="로그인" onclick="alert('가입하지 않은 아이디이거나, 잘못된 비밀번호입니다.')">
+                </div>
+            </form>
+            <div class="check-btn">
+                <div class="check">
+                    <input type="checkbox" name="ckeck" id="ckeck_login">
+                    <label for="ckeck_login">로그인 상태 유지</label>
+                </div>
+                <div class="off-btn">
+                    <input type="checkbox" name="ckeck" id="ckeck_text">
+                    <label for="ckeck_text">IP 보안</label>
+                </div>
+            </div>
+            <div class="Simple-Login">
+                <h2>더욱 간편한 로그인</h2>
+                <div>
+                    <div onclick="alert('일시적 오류 입니다.')">
+                        <img src="images/ico_QRcode.png" alt="QR코드 로그인 아이콘">
+                        <p>QR코드 로그인</p>
+                    </div>
+                    <div onclick="alert('일시적 오류 입니다.')">
+                        <img src="images/ico_OnePhone.png" alt="일회용 번호 로그인 아이콘">
+                        <p>일회용 번호 로그인</p>
+                    </div>
+                </div>
+                <div class="find">
+                    <a href="#" onclick="alert('아이디를 찾을 수 없습니다.')">아이디 찾기</a>
+                    <a href="#" onclick="alert('비밀번호를 찾을 수 없습니다.')">비밀번호 찾기</a>
+                    <a href="#" onclick="alert('회원가입을 할 수 없습니다.')">회원가입</a>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="images/Banner.png" alt="네이버 인증서 바로가기">
+            </div>
+        </main>
+        <footer>
+            <ul>
+                <li><a>이용약관</a></li>
+                <li><a>개인정보처리방침</a></li>
+                <li><a>책임의 한계와 법적고지</a></li>
+                <li><a>회원정보 고객센터</a></li>
+            </ul>
+            <div>
+                <img src="images/Logo.png" alt="네이버 바로가기">
+                <p>Copyright © <strong>NAVER Corp.</strong> All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

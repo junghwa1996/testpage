@@ -502,6 +502,9 @@
     margin-bottom: 120px;
     text-align: center;
   }
+  body #wrap main .banner img{
+    width:100%;
+  }
   body #wrap footer {
     display: none;
   }
